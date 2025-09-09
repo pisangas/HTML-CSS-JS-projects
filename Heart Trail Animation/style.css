@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: #000;    
+}
+
+span{
+    background: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/010_-_Heart-256.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
