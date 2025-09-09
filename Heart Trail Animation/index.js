@@ -1,7 +1,7 @@
 // Select the body element to track mouse movements
 const bodyElmnt = document.querySelector("body");
 
-// Track mouse move events
+// Track mouse move events and create heart trails
 bodyElmnt.addEventListener("mousemove", (event) => {
     const x = event.offsetX;
     const y = event.offsetY;
