@@ -1,5 +1,7 @@
+// Select the body element
 const bodyElmnt = document.querySelector("body");
 
+// Track mouse move events
 bodyElmnt.addEventListener("mousemove", (event) => {
     const x = event.offsetX;
     const y = event.offsetY;
