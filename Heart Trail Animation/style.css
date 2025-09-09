@@ -1,16 +1,31 @@
 body{
     margin: 0;
     height: 100vh;
-    background: #000;    
+    background: #000;
+    overflow: hidden;
 }
 
 span{
-    background: url("https://cdn1.iconfinder.com/data/icons/christmas-flat-4/58/010_-_Heart-256.png");
+    background: url("https://cdn4.iconfinder.com/data/icons/essentials-74/24/028_-_Heart-64.png");
     width: 100px;
     height: 100px;
     position: absolute;
     background-size: cover;
+    pointer-events: none;
     left: 50%;
-    top: 50%;
+    top: 50%;    
     transform: translate(-50%, -50%);
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -500%);
+        opacity: 0;
+        filter: hue-rotate(800deg);
+    }
 }
