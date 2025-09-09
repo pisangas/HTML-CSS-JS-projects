@@ -1,4 +1,4 @@
-// Select the body element
+// Select the body element to track mouse movements
 const bodyElmnt = document.querySelector("body");
 
 // Track mouse move events
